@@ -12,3 +12,6 @@ We introduce a non-invasive method for measuring blood sugar levels using Near-I
 Better patient experience as the device is non invasive 
 Reduces the risk of infection as no needles are involved
 Continuous monitoring to ensure that the patient is always up to date  
+
+**Block Diagram**
+![Picture1 (1)](https://github.com/Kevin-Thomas-Ajax/SugarSense/assets/107739369/6e940a92-3731-4570-a6d4-41840023ed60)
