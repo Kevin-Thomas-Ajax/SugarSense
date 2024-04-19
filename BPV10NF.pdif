@@ -1,0 +1,184 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "BPV10NF"
+      (family "DIO")
+      (package "XDCR_BPV10NF")
+      (description "_SENSOR_PHOTODIODE_940NM_RADIAL_")
+      (attribute "PKG_TYPE" "XDCR_BPV10NF")
+      (attribute "MF" "Vishay_Semiconductor")
+      (attribute "PACKAGE" "Radial_Vishay")
+      (attribute "PRICE" "None")
+      (attribute "PACKAGE" "Radial_Vishay_Semiconductor")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/BPV10NF/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap")
+      (attribute "MP" "BPV10NF")
+      (attribute "PURCHASE-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=262633&manufacturer=Vishay_Semiconductor&part_name=BPV10NF&search_term=photodiode")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/BPV10NF/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda")
+      (gate
+        (swap 1)
+        (symbol "BPV10NF")
+        (pin "A" A (type PS))
+        (pin "C" C (type PS))
+      )
+    )
+    (symbol "BPV10NF"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 60.0) (pt 0.0 -60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -60.0) (pt 100.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 0.0) (pt 0.0 60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 60.0) (pt 100.0 -60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 30.0 80.0) (pt 100.0 160.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 43.0 118.0) (pt 65.0 99.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 65.0 99.0) (pt 30.0 80.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 30.0 80.0) (pt 43.0 118.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 43.0 118.0) (pt 42.0 89.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 42.0 89.0) (pt 47.0 89.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 58.0 102.0) (pt 49.0 96.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 79.0 76.0) (pt 149.0 156.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 92.0 114.0) (pt 114.0 95.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 114.0 95.0) (pt 79.0 76.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 79.0 76.0) (pt 92.0 114.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 92.0 114.0) (pt 91.0 85.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 91.0 85.0) (pt 96.0 85.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 107.0 98.0) (pt 98.0 92.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 300.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "XDCR_BPV10NF"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (fill NONE)
+          (circle (pt -116.14 0) (pt 116.14 0))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -151.57 0) (pt -143.7 0))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 7.87)
+          (circle (pt -151.57 0) (pt -143.7 0))
+        )
+        (graphic
+          (stroke 5.0)
+          (fill NONE)
+          (circle (pt -116.14 0) (pt 116.14 0))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (fill NONE)
+          (circle (pt -125.98 0) (pt 125.98 0))
+        )
+      )
+      (leg A (pt 50 0) (padstack 1))
+      (leg C (pt -50 0) (padstack 2))
+      (padstack 1
+        (hole 47)
+        (plated true)
+        (pad (layer TCOP) (round 70.87))
+        (pad (layer INNER) (round 70.87))
+        (pad (layer BCOP) (round 70.87))
+        (pad (layer TRES) (round 74.8))
+        (pad (layer BRES) (round 74.8))
+      )
+      (padstack 2
+        (hole 47)
+        (plated true)
+        (pad (layer TCOP) (square 70.87))
+        (pad (layer INNER) (square 70.87))
+        (pad (layer BCOP) (square 70.87))
+        (pad (layer TRES) (square 74.8))
+        (pad (layer BRES) (square 74.8))
+      )
+      (model BPV10NF.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
